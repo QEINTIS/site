@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-block {
+    width: 100%;
+    height: 725px;
+    background: url(../img/bg_image.png);
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    height: 80px;
+    gap: 20px;
+    padding-right: 150px;
+}
+
+.number {
+    color: rgb(251, 253, 255);
+
+    font-family: 'Press Start 2P', cursive;
+}
+
+.main-text-section {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin-top: 206px;
+   color: rgb(251, 253, 255);
+
+    font-family: 'Press Start 2P', cursive
+}
+.main-title {
+    padding-bottom: 20px;
+    font-size: 79px;
+
+}
+
+.main-subtitle {
+    padding-bottom: 20px;
+    font-size: 27px;
+}
+
+.main-button {
+    margin-top: 32px;
+    width: 200px;
+    height: 70px;
+    background-color: rgb(251, 253, 255);
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.about-me-block {
+    width: 100%;
+    /*height: 725px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: 'Podkova', serif;
+
+}
+
+.section-title-block {
+    font-size: 37px;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.person-info-block {
+    max-width: 1380px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.img-hero {
+    width: 310px;
+    height: 381.234px;
+
+}
+.person-info-area {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    gap: 40px;
+
+}
+
+.person-info-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+
+
+}
+
+.underline-block {
+    width: 110px;
+    height: 3px;
+    margin-top: 15px;
+}
+
+.underline-black {
+    background-color: black;
+}
+
+.skill-block {
+    width: 100%;
+    /*height: 725px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#1E2E3D;;
+}
+.title3 {
+    font-size: 37px;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(251, 253, 255) ;
+    font-family: 'Podkova', serif;
+}
+.underline1-block {
+    width: 110px;
+    height: 3px;
+    margin-top: 15px;
+}
+
+.underline1-black {
+    background-color: rgb(251, 253, 255);
+}
+
+.img-skills {
+    display: flex;
+    flex-direction: row;
+    gap: 142px;
+    margin-top: 200px;
+    margin-bottom: 179px;
+}
+
+
+
+
+
+.footer {
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.logo {
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.footer-text-block1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    сolor: black;
+    font-family: 'Podkova', serif;
+    margin-bottom: -20px;
+}
+
+.footer-text-block2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    сolor: black;
+    font-family: 'Podkova', serif;
+}
+
+.img-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1366px;) {
+}
+    padding-left: 40px;
+    padding-right: 40px;
+
+@media screen and (max-width: 976px) {
+    .person-info-block {
+    display: flex;
+    flex-direction: column;
+}
+    
+}
+@media screen and (max-width: 996px) {
+    .img-skills {
+    display: flex;
+    flex-direction: column;}
+    }
+
